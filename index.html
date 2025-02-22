@@ -1,17 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <style src="style.css"></style>
+    <title>Mein Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <nav>
-      <!-- Nav -->
-    </nav>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#ueber-mich">Über mich</a></li>
+          <li><a href="#projekte">Projekte</a></li>
+          <li><a href="#faehigkeiten">Fähigkeiten</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="info">
+        <h1>Willkommen in meinem Portfolio</h1>
+        <p>Hi, My name is ....</p>
+      </section>
+
+      <section id="ueber-mich" class="about-me">
+        <h2>Über mich</h2>
+        <p>Meine Beschreibung.</p>
+      </section>
+
+      <section id="projekte" class="projekte">
+        <h2>Meine Projekte</h2>
+        <div class="projekt">
+          <h3>Projekt 1</h3>
+          <p>Beschreibung des Projekts</p>
+        </div>
+        <div class="projekt">
+          <h3>Projekt 2</h3>
+          <p>Beschreibung des Projekts</p>
+        </div>
+      </section>
+
+      <section id="faehigkeiten" class="skills">
+        <h2>Meine Fähigkeiten</h2>
+        <ul>
+          <li>Fähigkeit 1</li>
+          <li>Fähigkeit 2</li>
+          <li>Fähigkeit 3</li>
+        </ul>
+      </section>
+
+      <section id="kontakt">
+        <h2>Kontakt</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">E-Mail:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="nachricht">Nachricht:</label>
+          <textarea id="nachricht" name="nachricht" required></textarea>
+
+          <button type="submit">Senden</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Nico Walter. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
