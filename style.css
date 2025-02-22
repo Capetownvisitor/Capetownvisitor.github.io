@@ -1,9 +1,10 @@
 :root {
-  --text: #090d02;
-  --background: #fafef5;
-  --primary: #8de22b;
-  --secondary: #7feed5;
-  --accent: #4fcde7;
+  --text: #05080a;
+  --background: #f7fafb;
+  --primary: #62bbe9;
+  --secondary: #166a83;
+  --accent: #51ccab;
+
   --font-main: "Roboto", sans-serif;
   --font-heading: "Montserrat", sans-serif;
 }
